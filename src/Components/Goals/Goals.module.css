@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    background-image: url(../../Assets/goalBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.innerContainer{
+    width: 70%;
+    margin: auto;
+    padding-top: 8rem;
+}
+
+.innerContainer h3{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 54px;
+    text-align: center;
+    color: #fff;
+}
+
+.goal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.goalText{
+    width: 60%;
+}
+
+.goalText p{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+}
+
+.goalImage{
+    width: 30%;
+}
+
+.goalImage img{
+    width: 100%;
+}
+
+@media screen and (max-width: 550px){
+    .innerContainer{
+        width: 90%;
+        margin: auto;
+        padding-top: 4rem;
+    }
+    
+    .innerContainer h3{
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .goalText{
+        width: 60%;
+    }
+    
+    .goalText p{
+        color: #fff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: left;
+    }
+    
+    .goalImage{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .innerContainer h3{
+        font-size: 27px;
+        font-weight: 800;
+    }
+}

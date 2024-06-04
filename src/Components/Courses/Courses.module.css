@@ -1,0 +1,93 @@
+.container{
+    width: 100%;
+    padding: 3rem 0;
+    background-image: url(../../Assets/ourseBack.png);
+}
+
+.innerContainer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.featured{
+    width: 70%;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.featured h3{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44.8px;
+    text-align: left;
+    color: rgba(17, 17, 17, 1);
+}
+
+/* .cardImage{
+    width: 30%;
+} */
+
+.cardImage img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cardText{
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+    /* width: 30%; */
+    background: #fff;
+    border: none;
+    margin-top: -.5rem;
+    height: 150px;
+}
+
+.cardText h4{
+    font-family: Roboto;
+    font-size: 12px;
+    padding: 1rem 1rem 4rem 1rem;
+}
+
+.free{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.free p{
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.free p span{
+    font-family: Roboto;
+    font-size: 14px;
+    color: rgba(4, 172, 20, 1);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px){
+    .innerContainer{
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    .card{
+    margin-bottom: 3rem;
+    }
+
+    .free p{
+        font-family: Roboto;
+        font-size: 16px;
+    }
+    
+    .free p span{
+        font-family: Roboto;
+        font-size: 16px;
+    }
+}
