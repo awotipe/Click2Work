@@ -2,10 +2,13 @@ import React, { useEffect } from "react";
 import classes from "./Footer.module.css";
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/Logo.png";
-import Address from "../../Assets/location.png";
-import Phone from "../../Assets/phone.png";
-import Mail from "../../Assets/mail.png";
+// import Address from "../../Assets/location.png";
+// import Phone from "../../Assets/phone.png";
+// import Mail from "../../Assets/mail.png";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import { FiSend } from "react-icons/fi";
+import { IoCallOutline } from "react-icons/io5";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 const Footer = () => {
   useEffect(() => {
@@ -51,10 +54,10 @@ const Footer = () => {
           <div className={classes.innerFoot}>
             <h3>Contact Us</h3>
             <div className={classes.contactFlex}>
-              <div className={classes.conFlex1}>
-                <img src={Address} className={classes.conFlex} alt="address"/>
+              <div className={classes.conFlex}>
+                <FiSend />
               </div>
-              <div className={classes.pFlex1}>
+              <div className={classes.pFlex}>
               <p>
                 Suite E, Agbara Estate Shopping Mall, Beside Stanbic IBTC Bank,
                 Agbara
@@ -63,15 +66,15 @@ const Footer = () => {
             </div>
             <div className={classes.contactFlex}>
               <div className={classes.conFlex}>
-                <img src={Phone} alt="phone" />
+               <IoCallOutline />
               </div>
-              <div className={classes.pFlex2}>
+              <div className={classes.pFlex}>
               <p>08094355000, 08094355003 </p>
             </div>
             </div>
             <div className={classes.contactFlex}>
               <div className={classes.conFlex}>
-                <img src={Mail} alt="mail" />
+                <MdOutlineMailOutline />
               </div>
               <div className={classes.pFlex}>
               <p>info@niitagbara.com </p>
@@ -80,15 +83,10 @@ const Footer = () => {
           </div>
           <div className={classes.innerFoot}>
             <h3>Subscribe</h3>
-            <p>2 Soretire street, Ogba Ikeja, Lagos</p>
-            <p>
-              <a href="tel: +2347038477446">Call: +2347038477446</a>
-            </p>
-            <p>
-              <a href="mailto: magnificient@gmail.com">
-                Email: magnificient@gmail.com
-              </a>
-            </p>
+            <div className={classes.subscribe}>
+              <input type="email" name="email" placeholder="Enter your email" />
+              <button type="submit"><FiSend /></button>
+            </div>
           </div>
         </div>
       </footer>

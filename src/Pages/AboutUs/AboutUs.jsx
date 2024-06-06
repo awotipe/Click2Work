@@ -1,12 +1,12 @@
 import React from 'react';
-import Hero from "../../Components/Hero/Hero"
-import Practice from "../../Components/Practice/Practice";
+import Hero from "../../Components/AboutHero/AboutHero"
+import About from "../../Components/About/About"
 
 const AboutUs = () => {
   return (
     <div>
         <Hero/>
-        <Practice/>
+        <About/>
     </div>
   )
 }

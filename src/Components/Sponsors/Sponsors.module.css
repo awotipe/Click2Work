@@ -257,4 +257,16 @@
     .textssContainer h1 {
       font-size: 35px;
     }
+
+    .check{
+      gap: 2rem;
+    }
+
+    .check1 input[type="radio"] {
+      place-content: center;
+      margin: 10% 0 0;
+      width: 1.5rem;
+      height: 1.5rem;
+    
+  }
   }

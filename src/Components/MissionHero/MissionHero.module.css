@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    background-image: url(../../Assets/missionHero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    /* margin-bottom: 2rem; */
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.container h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.container h4{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: Roboto;
+}

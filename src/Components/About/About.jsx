@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./About.module.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -27,9 +27,9 @@ const About = () => {
             removing the financial bottlenecks to learning digital skills and
             literacy programs.
           </p>
-          <NavLink to="/about">
+          <Link to="/about">
           <button>Read More</button>
-          </NavLink>
+          </Link>
         </div>
         <div className={style.aboutCard}>
           <h3>Latest News</h3>
