@@ -82,24 +82,7 @@ a {
         right:0;
         background: rgba(255, 102, 0, 1);
         transition: 0.3s;
-        /* filter: alpha(opacity=60);
-        -moz-opacity: 0.6;
-        opacity: 0.6; */
     }
-    
-    /* .active{
-        top: 100px; 
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 60vh;
-        position: absolute;
-        justify-content:space-between;
-        right:0;
-        background-color: #1429A9;
-        align-items:center;
-        transition:0.3s;
-    } */
 
       .hamburger{
         display:block;
@@ -115,9 +98,21 @@ a {
     }
 
     .active li{
-        /* padding: 1rem; */
         margin: 2rem;
         color: #fff;
         border-bottom:1px solid #fff;
+    }
+
+    .mobileNav button{
+        background: rgba(0, 39, 43, 1);
+        padding: .7rem 1rem;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-family: Roboto;
+        font-size: 14px;
+        border-radius: 5px;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
     }
 }

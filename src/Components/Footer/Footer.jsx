@@ -59,8 +59,7 @@ const Footer = () => {
               </div>
               <div className={classes.pFlex}>
               <p>
-                Suite E, Agbara Estate Shopping Mall, Beside Stanbic IBTC Bank,
-                Agbara
+                MKO Abiola Way, Providence Center, by NNPC, Lemme, Abeokuta, Ogun State.
               </p>
               </div>
             </div>
@@ -69,7 +68,7 @@ const Footer = () => {
                <IoCallOutline />
               </div>
               <div className={classes.pFlex}>
-              <p>08094355000, 08094355003 </p>
+              <p>07043859233, 09169842806 </p>
             </div>
             </div>
             <div className={classes.contactFlex}>

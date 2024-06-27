@@ -1,0 +1,156 @@
+.container{
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 4rem 0;
+    background: rgb(224, 222, 222);
+}
+
+.innerContainer {
+    width: 70%;
+    margin: auto;
+  }
+
+  .spons{
+    background: rgba(0, 39, 43, 1);
+    padding: 1rem 0;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px ;
+ }
+ 
+ .spons h3 {
+   color: #fff;
+   font-family: Roboto;
+   font-size: 2.5rem;
+   font-weight: 700;
+   line-height: 53.8px;
+   text-align: center;
+ }
+
+ .spons p{
+   color: #fff;
+   font-family: Roboto;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 25px;
+   text-align: center;
+ }
+
+  form {
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+    background: #fff;
+    text-align: center;
+    /* padding: 2rem; */
+  }
+  
+  form input {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid rgba(117, 117, 117, 1);
+    height: 45.807px;
+    background: rgb(224, 222, 222);
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: #757575;
+    font-size: 16px;
+    font-family: Roboto;
+    padding-left: 1rem;
+  }
+  
+  .flexForm{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: rgb(152, 150, 150);
+    padding-left: 0.1rem;
+  }
+
+  
+  .formContainer button {
+    border-radius: 8px;
+    background: rgba(255, 102, 0, 1);
+    color: #fff;
+    padding: .7rem 0;
+    width: 100%;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 133.5%;
+    cursor: pointer;
+    border: none;
+  }
+
+  
+  @media (max-width: 1024px) {
+    .innerContainer {
+      width: 90%;
+      margin: auto;
+    }
+  
+  }
+
+  @media (max-width: 768px) {  
+    form input {
+      width: 90%;
+      border-radius: 8px;
+      border: 1px solid rgba(117, 117, 117, 1);
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 14px;
+      font-family: Roboto;
+      padding-left: 1rem;
+    }
+  
+    ::-webkit-input-placeholder {
+      padding-left: 0.1rem;
+    }
+
+    /* .spons{
+      background: rgba(0, 39, 43, 1);
+      padding: .5rem 0;
+      width: 100%;
+      border-radius: 8px 8px 0px 0px ;
+   } */
+  
+    .spons h3 {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  
+    .formContainer button {
+      border-radius: 8px;
+      color: #fff;
+      font-size: 14px;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 133.5%;
+      cursor: pointer;
+    }
+  }
+  @media (max-width: 480px) {
+    .innerContainer {
+      width: 90%;
+      display: block;
+      text-align: center;
+    }
+  
+    .formContainer {
+      border-radius: 8px;
+      background: #fff;
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    .flexForm{
+        display: block;
+        gap: 2rem;
+      }
+
+  }
+  @media (max-width: 425px) {
+
+  }

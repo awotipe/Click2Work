@@ -1,8 +1,8 @@
 import "./App.css";
 import { useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Router from "../src/Router";
 import Navbar from "../src/Components/Header/Header";
+import Router from "../src/Router";
 import Footer from "../src/Components/Footer/Footer";
 
 const Wrapper = ({ children }) => {

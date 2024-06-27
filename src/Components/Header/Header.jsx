@@ -40,7 +40,9 @@ const Header = () => {
               <Link to="/sponsors" className={classes.navlink} activeClassName={classes.active} onClick={handleNavLinkClick}>
                 <li>SPONSORS</li>
               </Link>
+              <Link to="/register">
               <button>APPLY NOW</button>
+              </Link>
             </nav>
         <div className={classes.hamburger} onClick={handleNavToggle}>
           {!navOpen ? (
@@ -65,6 +67,9 @@ const Header = () => {
               </Link>
               <Link to="/sponsors" className={classes.navlink} activeClassName={classes.active} onClick={handleNavLinkClick}>
                 <li>SPONSORS</li>
+              </Link>
+              <Link to="/register" onClick={handleNavLinkClick}>
+              <button>APPLY NOW</button>
               </Link>
             </nav>
             </div>

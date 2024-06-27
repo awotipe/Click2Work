@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className={style.container}>
     <div className={style.conText}>
-       <h2>BENEFIT FROM THIS SKILL TO JOB PROGRAM</h2>
+       <h2>BENEFIT FROM THIS <span>SKILL TO JOB</span> PROGRAM</h2>
        <p>We are here to bridge the gap between the demand and supply of IT talent. </p>
     </div>
     <div className={style.conImage}>

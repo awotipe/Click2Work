@@ -6,7 +6,7 @@ import Mission from "./Pages/Mission/Mission";
 import Course from "./Pages/Courses/Courses";
 import Sponsors from "./Pages/SponsorPage/SponsorPage"
 import Synopses from "./Components/Synopses/Synopses"
-import Application from "./Pages/Application/Application"
+import Register from "./Pages/Application/Application"
 
 const Router = () => {
     return useRoutes([
@@ -23,8 +23,8 @@ const Router = () => {
           element: <Mission />,
         },
         {
-          path: "/application",
-          element: <Application/>,
+          path: "/register",
+          element: <Register/>,
         },
         {
           path: "/courses",
