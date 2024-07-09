@@ -161,6 +161,10 @@
       text-align: center;
     }
 
+    form input{
+      width: 100%;
+    }
+
     .flexForm{
         display: block;
         gap: 2rem;
@@ -170,11 +174,11 @@
         padding-top: 1rem;
         padding-bottom: 3rem;
         padding-left: 1rem;
-        width: 90%;
+        width: 100%;
       }
 
       .one{
-        width: 90%;
+        width: 100%;
       }
 
   }
