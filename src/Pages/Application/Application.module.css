@@ -142,6 +142,10 @@
       cursor: pointer;
     }
 
+    .one{
+      width: 100%;
+    }
+
   }
   @media (max-width: 480px) {
     .innerContainer {
@@ -166,6 +170,11 @@
         padding-top: 1rem;
         padding-bottom: 3rem;
         padding-left: 1rem;
+        width: 90%;
+      }
+
+      .one{
+        width: 90%;
       }
 
   }
