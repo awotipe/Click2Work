@@ -57,6 +57,17 @@
     font-family: Roboto;
     padding-left: 1rem;
   }
+
+  .message{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    width: 100%;
+  }
+
+  .one{
+    width: 100%;
+  }
   
   .flexForm{
     display: flex;
@@ -130,6 +141,7 @@
       line-height: 133.5%;
       cursor: pointer;
     }
+
   }
   @media (max-width: 480px) {
     .innerContainer {
@@ -148,6 +160,12 @@
     .flexForm{
         display: block;
         gap: 2rem;
+      }
+
+      .message{
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        padding-left: 1rem;
       }
 
   }

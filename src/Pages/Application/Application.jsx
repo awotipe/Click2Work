@@ -49,27 +49,27 @@ const Application = () => {
               <input type='phone_number' name='Phone_Number' placeholder='Phone Number' required></input>
           </div>
           <div className={classes.flexForm}>
-          <input type='address' name='Address' placeholder='Home Address' required ></input>
+          <input type='address' name='Address' className={classes.one} placeholder='Home Address' required ></input>
           </div>
           <div className={classes.flexForm}>
-          <input type='text' name='P_Name' placeholder='Parent/Guardian Name' required ></input>
+          <input type='text' name='P_Name' className={classes.one} placeholder='Parent/Guardian Name' required ></input>
           </div>
           <div className={classes.flexForm}>
-          <input type='address' name='P_Address' placeholder='Parent/Guardian Address' required ></input>
+          <input type='address' name='P_Address' className={classes.one} placeholder='Parent/Guardian Address' required ></input>
           </div>
           <div className={classes.flexForm}>
           <input type='text' name='Date' placeholder='Date of Birth' required></input>
           <input type='text' name='Gender' placeholder='Gender' required></input>
           </div>
           <div className={classes.flexForm}>
-          <input type='text' name='Course' placeholder='Choice of Course  (e.g. Web Design)' required></input>
+          <input type='text' name='Course' className={classes.one} placeholder='Course  (e.g. Web Design)' required></input>
           </div>
           <div className={classes.flexForm}>
           <input type='text' name='Work' placeholder='Work Experience' required></input>
           <input type='text' name='Education' placeholder='Education Backkground' required></input>
           </div>
           <div className={classes.flexForm}>
-          <input type='text' name='Feedback' className={classes.message} placeholder='Tell us why you want to take this course' required></input>
+          <input type='text' name='Feedback' className={classes.message} placeholder='Tell us why you want to enroll' required></input>
           </div>
           <button>Submit</button>
           </form>
