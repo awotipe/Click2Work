@@ -1,15 +1,15 @@
 .container{
     width: 100%;
-    background-image: url(../../Assets/goalBack.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 4rem 0;
+    /* background-image: url(../../Assets/goalBack.png); */
+    background: rgba(255, 102, 0, 1);
+    padding: 2rem 0;
+    margin-top: 4rem;
 }
 
 .innerContainer{
     width: 70%;
     margin: auto;
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
 }
 
 .innerContainer h3{
@@ -55,7 +55,7 @@
     .innerContainer{
         width: 90%;
         margin: auto;
-        padding-top: 4rem;
+        /* padding-top: 4rem; */
     }
     
     .innerContainer h3{

@@ -37,6 +37,9 @@ const Header = () => {
               <Link to="/courses" className={classes.navlink} activeClassName={classes.active} onClick={handleNavLinkClick}>
                 <li>COURSES</li>
               </Link>
+              <Link to="/gallery" className={classes.navlink} activeClassName={classes.active} onClick={handleNavLinkClick}>
+                <li>GALLERY</li>
+              </Link>
               <Link to="/sponsors" className={classes.navlink} activeClassName={classes.active} onClick={handleNavLinkClick}>
                 <li>SPONSORS</li>
               </Link>
@@ -64,6 +67,9 @@ const Header = () => {
               </Link>
               <Link to="/courses" className={classes.navlink} activeClassName={classes.active} onClick={handleNavLinkClick}>
                 <li>COURSES</li>
+              </Link>
+              <Link to="/gallery" className={classes.navlink} activeClassName={classes.active} onClick={handleNavLinkClick}>
+                <li>GALLERY</li>
               </Link>
               <Link to="/sponsors" className={classes.navlink} activeClassName={classes.active} onClick={handleNavLinkClick}>
                 <li>SPONSORS</li>
