@@ -45,20 +45,20 @@ const Sponsors = () => {
               <form ref={form} onSubmit={sendEmail}>
                 <div className={classes.row}>{result ? <Result /> : null } </div>
                 <div className={classes.flexForm}>
-              <input type='text' name='FirstName' placeholder='First Name'></input>
-              <input type='text' name='LastName' placeholder='Last Name'></input>
+              <input type='text' name='FirstName' placeholder='First Name' required></input>
+              <input type='text' name='LastName' placeholder='Last Name' required></input>
               </div>
               <div className={classes.flexForm}>
-              <input type='text' name='Email' placeholder='Email Address'></input>
-              <input type='text' name='CompanyName' placeholder='Company Name' ></input>
+              <input type='text' name='Email' placeholder='Email Address' required></input>
+              <input type='text' name='CompanyName' placeholder='Company Name' required ></input>
               </div>
               <div className={classes.flexForm}>
-              <input type='text' name='Phone' placeholder='Phone Number'></input>
-              <input type='text' name='Position' placeholder='Position' ></input>
+              <input type='text' name='Phone' placeholder='Phone Number' required></input>
+              <input type='text' name='Position' placeholder='Position' required ></input>
               </div>
               <div className={classes.check}>
               <div className={classes.check1}>
-              <input type="radio" name="radio"></input><br/>
+              <input type="radio" name="radio" ></input><br/>
               <label for="bronze">Bronze</label><br/>
               </div>
               <div className={classes.check1}>
