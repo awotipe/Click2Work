@@ -1,8 +1,68 @@
 .container{
     width: 100%;
     margin-top: 8rem;
+     background-image: url(../../Assets/ourseBack.png);
 }
-.container h2{
-    text-align: center;
+
+.innerContainer{
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+.innerContainer h2{
     font-size: 2rem;
+    padding-bottom: 1rem;
+    font-family: Roboto;
+}
+
+.imageContainer{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.imageMain img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1027px){
+    .innerContainer{
+    width: 90%;
+}
+
+.imageMain img{
+    width: 90%;
+}
+
+}
+@media screen and (max-width: 900px){
+    .innerContainer{
+    width: 90%;
+}
+
+.imageContainer{
+    margin-bottom: 1rem;
+}
+}
+
+@media screen and (max-width: 650px){
+    .innerContainer{
+    width: 90%;
+}
+
+.imageContainer{
+    margin-bottom: 0rem;
+    display: block;
+    
+}
+
+.imageMain{
+   margin-bottom: 2rem;
+}
+
+.imageMain img{
+    width: 100%;
+}
 }

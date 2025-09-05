@@ -15,11 +15,15 @@ footer{
 .foot{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 65%;
 }
 
 .innerFoot{
-    width: 43%;
+    width: 39%;
+}
+
+.innerFoot1{
+    width: 30%;
 }
 
 
@@ -27,14 +31,21 @@ footer{
     color:#fff;
     padding-bottom: 1rem;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .innerFoot p{
     color:#fff;
     padding-bottom: 1rem;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.innerFoot1 p{
+    color:#fff;
+    padding-bottom: 1rem;
+    font-family: Roboto;
+    font-size: 16px;
 }
 
 
@@ -59,12 +70,12 @@ a{
 .copyright p{
     color:#fff;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
 .logo img{
-    width: 35%;
+    width: 25%;
 }
 
 .contactFlex{
@@ -117,13 +128,19 @@ a{
 
 @media screen and (max-width: 940px){
     .logo img{
-        width: 35%;
+        width: 17%;
     }
 
     footer{
         width: 100%;
         flex-direction: column;
        
+    }
+
+      .innerFoot1{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 2rem;
     }
 
     .foot{
@@ -135,7 +152,7 @@ a{
 
 @media screen and (max-width: 500px){
     .logo img{
-        width: 35%;
+        width: 20%;
     }
 
     footer{
@@ -155,10 +172,11 @@ a{
         width: 100%;
         padding-bottom: 2rem;
     }
+
 }
 
 @media screen and (max-width: 480px){
     .logo img{
-        width: 35%;
+        width: 20%;
     }
 }

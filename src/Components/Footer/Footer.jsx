@@ -17,20 +17,29 @@ const Footer = () => {
   return (
     <div className={classes.container}>
       <footer>
-        <div className={classes.foot}>
-          <div className={classes.innerFoot}>
+          <div className={classes.innerFoot1}>
             <div className={classes.logo}>
               <Link to="/">
                 <img src={Logo} alt="FooterLogo" />
               </Link>
             </div>
             <p>
-              The company, which was set up in 1981 to help the nascent IT
-              industry overcome its human resource challenges, today ranks among
-              the world's leading training companies owing to its vast and
-              comprehensive array of talent development programs.
+              Launched in 2023 with a vision to empower vulnerable Nigerians
+              with relevant digital literacy skills while exposing them to job
+              opportunities, the C2W initiative - a spinoff of ITcore Business
+              Solutions Limited – the official training partner for NIIT
+              provides the platform to acquire digital skills for free that
+              would chart a course for the future of beneficiaries. The Platform
+              aims to empower thousands of young people (vulnerable and
+              underserved) in Nigeria to acquire any of the skills that the C2W
+              initiative provides. The objective is to equip 2,000 (Two
+              Thousand) young people yearly, with digital and tech skills, along
+              with the knowledge and assistance to professionalise their skills
+              and connect them with profitable clients to become active actors
+              in the economic growth of Nigeria.
             </p>
           </div>
+            <div className={classes.foot}>
           <div className={classes.innerFoot}>
             <h3>Featured Link</h3>
             <Link to="/">
@@ -49,8 +58,6 @@ const Footer = () => {
               <p>Sponsors</p>
             </Link>
           </div>
-        </div>
-        <div className={classes.foot}>
           <div className={classes.innerFoot}>
             <h3>Contact Us</h3>
             <div className={classes.contactFlex}>
@@ -58,33 +65,36 @@ const Footer = () => {
                 <FiSend />
               </div>
               <div className={classes.pFlex}>
-              <p>
-                MKO Abiola Way, Providence Center, by NNPC, Lemme, Abeokuta, Ogun State.
-              </p>
+                <p>
+                  MKO Abiola Way, Providence Center, by NNPC, Lemme, Abeokuta,
+                  Ogun State.
+                </p>
               </div>
             </div>
             <div className={classes.contactFlex}>
               <div className={classes.conFlex}>
-               <IoCallOutline />
+                <IoCallOutline />
               </div>
               <div className={classes.pFlex}>
-              <p>07043859233, 09169842806 </p>
-            </div>
+                <p>07043859233, 09169842806 </p>
+              </div>
             </div>
             <div className={classes.contactFlex}>
               <div className={classes.conFlex}>
                 <MdOutlineMailOutline />
               </div>
               <div className={classes.pFlex}>
-              <p>info@niitagbara.com </p>
-            </div>
+                <p>info@niitagbara.com </p>
+              </div>
             </div>
           </div>
           <div className={classes.innerFoot}>
             <h3>Subscribe</h3>
             <div className={classes.subscribe}>
               <input type="email" name="email" placeholder="Enter your email" />
-              <button type="submit"><FiSend /></button>
+              <button type="submit">
+                <FiSend />
+              </button>
             </div>
           </div>
         </div>
@@ -94,7 +104,9 @@ const Footer = () => {
           <p>© Copyright 2024 Click2Work</p>
         </div>
       </div>
-      <div className={classes.scrollUp} onClick={() => {
+      <div
+        className={classes.scrollUp}
+        onClick={() => {
           window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         }}
       >
